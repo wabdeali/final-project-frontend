@@ -1,0 +1,23 @@
+.navbar {
+  background: rgb(34, 34, 34);
+  color: rgb(233, 233, 233);
+  height: 70px;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+
+    li {
+      margin-right: 25px;
+      font-size: 1.2em;
+    }
+  }
+}
+
+.logo {
+  font-size: 2.6em;
+  margin-left: 20px;
+  position: absolute;
+}

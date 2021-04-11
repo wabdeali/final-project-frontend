@@ -1,0 +1,19 @@
+.layoutContainer {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+}
+
+.layoutExercise {
+  margin: 20px;
+}
+
+.layoutSidebar {
+  background: grey;
+  height: 100vh;
+  color: rgb(243, 243, 243);
+  padding: 20px;
+
+  ul {
+    list-style-type: none;
+  }
+}
