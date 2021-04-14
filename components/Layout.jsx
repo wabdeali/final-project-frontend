@@ -22,6 +22,12 @@ function Layout({children}) {
                     <li>
                         <Link href="/exercise/csrf">CSRF Attack</Link>
                     </li>    
+                    <li>
+                        <Link href="/exercise/bruteforce">Brute Force Attack</Link>
+                    </li>    
+                    <li>
+                        <Link href="/exercise/sqlinjection">SQL Injection Attack</Link>
+                    </li>    
                 </ul>
             </div>
         </div>

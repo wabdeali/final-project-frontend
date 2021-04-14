@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import styles from './htmlinsertion.module.scss'
 import Layout from '../../../components/Layout'
 import TextInput from '../../../components/TextInput'
 import Button from '../../../components/Button'
@@ -17,7 +16,7 @@ function index() {
         <Layout>
         <div>
             <h1>HTML Insertion Attack</h1>
-            <div className={styles.inputContainer}>
+            <div className="inputContainer">
                 <TextInput type="text" value={inputValue} onChange={e => setInputValue(e.target.value)} placeholder="Enter Name"/>
                 <Button onClick={handleOnClick}>Enter</Button>
             </div>

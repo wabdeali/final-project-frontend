@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import styles from './xss.module.scss'
 import Layout from '../../../components/Layout'
 import TextInput from '../../../components/TextInput'
 import Button from '../../../components/Button'
@@ -17,7 +16,7 @@ function index() {
         <Layout>
         <div>
             <h1>XSS Attack</h1>
-            <div className={styles.inputContainer}>
+            <div className="inputContainer">
                 <TextInput type="text" value={inputValue} onChange={e => setInputValue(e.target.value)}/>
                 <Button onClick={handleOnClick}>Enter</Button>
             </div>

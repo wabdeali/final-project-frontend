@@ -1,7 +1,11 @@
+import Layout from "../../components/Layout";
+
 function index() {
     return (
         <div>
-            Exercises
+            <Layout >
+                
+            </Layout>
         </div>
     )
 }
