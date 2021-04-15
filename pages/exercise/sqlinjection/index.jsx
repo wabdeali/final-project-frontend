@@ -7,7 +7,9 @@ function index() {
     const [inputValue, setInputValue] = useState("")
     const [data, setData] = useState(null)
 
-    const handleOnClick = () => {
+    const handleOnSubmit = (e) => {
+        e.preventDefault()
+
         fetch(`http://localhost:3001/namesearch/?name=${inputValue}`)
         .then(res => res.json())
         .then(json => {
@@ -21,14 +23,18 @@ function index() {
         <div>
             <h1>SQL Injection Attack</h1>
             <div className="inputContainer">
+                <form onSubmit={handleOnSubmit}>
                 <TextInput 
                     type="text" 
                     value={inputValue} 
                     onChange={e => setInputValue(e.target.value)}
-                    placeholder="Enter name you want to search"
+                    placeholder="Enter Name"
                 />
-                <Button onClick={handleOnClick}>Search</Button>
+                <Button type="submit">Search</Button>
+                </form>
             </div>
+            <br />
+            <br />
             <div>
                 {
                     data && 
@@ -44,8 +50,8 @@ function index() {
                             <th>IP Adress</th>
                         </tr>
                         {
-                            data.map(row => (
-                                <tr>
+                            data.map((row, index) => (
+                                <tr key={index}>
                                     <td>{row.id}</td>
                                     <td>{row.first_name}</td>
                                     <td>{row.last_name}</td>

@@ -11,6 +11,7 @@ function Layout({children}) {
                 {children}
             </div>
             <div className={styles.layoutSidebar}>
+                <div className={styles.sidebarLinks}>
                 <p>Select type of Attack:</p>
                 <ul>
                     <li>
@@ -29,6 +30,7 @@ function Layout({children}) {
                         <Link href="/exercise/sqlinjection">SQL Injection Attack</Link>
                     </li>    
                 </ul>
+                </div>
             </div>
         </div>
         </>
