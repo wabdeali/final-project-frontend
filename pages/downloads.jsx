@@ -38,7 +38,7 @@ function downloads() {
                 <p className={styles.p11}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit sequi id nobis illum, culpa animi officia eligendi sed. Natus consequuntur corporis reprehenderit voluptate aliquam asperiores cumque, ullam accusamus in.</p>
                 <button className={styles.button}> <a href='/'>Download ISO</a></button>
                 </div>
-                <div className={styles.websiteimg11}></div>
+                <div className={styles.websiteimg111}></div>
 
 
             </div>
@@ -49,7 +49,7 @@ function downloads() {
                 <p className={styles.p11}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit sequi id nobis illum, culpa animi officia eligendi sed. Natus consequuntur corporis reprehenderit voluptate aliquam asperiores cumque, ullam accusamus in.</p>
                 <button className={styles.button}> <a href='/'>Download PDF</a></button>
                 </div>
-                <div className={styles.websiteimg11}></div>
+                <div className={styles.websiteimg1111}></div>
 
 
             </div>

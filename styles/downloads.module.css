@@ -68,10 +68,24 @@
 .websiteimg11 {
   background-image: url("../public/img/skull.png");
   height: 500px;
-  width: 100%;
-  /*background-repeat: no-repeat;*/
+  width: 60%;
+  background-repeat: no-repeat;
 }
 
+.websiteimg111 {
+    background-image: url("../public/img/laptop.png");
+    height: 500px;
+    width: 60%;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+  }
+  .websiteimg1111 {
+    background-image: url("../public/img/paper.png");
+    height: 500px;
+    width: 60%;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+  }
 .website3 {
     display: flex;
     background-color: rgb(43, 0, 83);
@@ -110,7 +124,7 @@
     position: fixed;
   }
 
-  .websiteimg11{
+  .websiteimg11,.websiteimg111,.websiteimg1111{
       display: none;
   }
 
