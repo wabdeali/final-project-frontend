@@ -24,7 +24,7 @@ function downloads() {
 
                 <h1 className={styles.h11}>WAP ATTACK GUIDE</h1>
                 <p className={styles.p11}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit sequi id nobis illum, culpa animi officia eligendi sed. Natus consequuntur corporis reprehenderit voluptate aliquam asperiores cumque, ullam accusamus in.</p>
-                <button className={styles.button}>Download PDF</button>
+                <button className={styles.button}> <a href='/'>Download PDF</a></button>
                 <div className={styles.websiteimg11}></div>
 
 
