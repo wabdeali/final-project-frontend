@@ -24,7 +24,7 @@ function downloads() {
 
                 <h1 className={styles.h11}>WAP ATTACK GUIDE</h1>
                 <p className={styles.p11}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit sequi id nobis illum, culpa animi officia eligendi sed. Natus consequuntur corporis reprehenderit voluptate aliquam asperiores cumque, ullam accusamus in.</p>
-                <button className={styles.button}> <a href='/'>Download PDF</a></button>
+                <button className={styles.button}> <a href='../downloads/Attackguide.pdf'target="_blank">Download PDF</a></button>
                 </div>
                 <div className={styles.websiteimg11}></div>
 
@@ -34,9 +34,9 @@ function downloads() {
             <div className={styles.website3}>
             <div className={styles.a}>
 
-                <h1 className={styles.h11}style={{color:"#DC143C;"}}>WAP OS</h1>
+                <h1 className={styles.h11}style={{color:"#DC143C;"}}>Linux Online Guide</h1>
                 <p className={styles.p11}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit sequi id nobis illum, culpa animi officia eligendi sed. Natus consequuntur corporis reprehenderit voluptate aliquam asperiores cumque, ullam accusamus in.</p>
-                <button className={styles.button}> <a href='/'>Download ISO</a></button>
+                <button className={styles.button}> <a href='../public/downloads/learnlinux.pdf'>Download Linux Guide</a></button>
                 </div>
                 <div className={styles.websiteimg111}></div>
 
