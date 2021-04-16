@@ -35,10 +35,9 @@ function index() {
             </div>
             <br />
             <br />
-            <div>
+            {data && <div>
                 {
-                    data && 
-                    // <pre>{JSON.stringify(data, undefined, 2)}</pre>
+                    Array.isArray(data) && 
                     <table>
                         <tbody>
                         <tr>
@@ -64,7 +63,15 @@ function index() {
                         </tbody>
                     </table>
                 }
-            </div>
+                {
+                    data.message === "failed" && 
+                    <pre style={{ color: 'red' }}>{JSON.stringify(data.error, undefined, 2)}</pre>
+                }
+                {
+                    data.message === "notfound" &&
+                    <p>No Data records found for the name given.</p>
+                }
+            </div>}
         </div>
         </Layout>
     )

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+.website{
+    padding: 10em;
+}
+
+ .h1{
+    color: rgb(53, 0, 102);
+    font-size: 3em;
+    font-family: 'Ubuntu', sans-serif;
+    width: 30%;
+}
+
+.p{
+    font-size: large;
+    width: 30%;
+    padding: 1em;
+   
+}
+
+.button{
+    display:inline-block;
+    background-color: rgb(23, 170, 255);
+   font-size: larger;
+   font-family: 'Ubuntu', sans-serif;
+padding:0.35em 1.2em;
+border:0.1em solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.7em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#ffffff;
+text-align:center;
+transition: all 0.2s;
+
+}
+
+.button:hover{
+    color:#000000;
+    background-color:#00ff73;
+    }
+    
+.websiteimg{
+background-image: url('../public/img/Website1.png');
+position: absolute;
+top: 140px;
+right: -50%;
+z-index: -1;
+width: 100%;
+height: 500px;
+background-repeat: no-repeat;
+    }
+
+    .website2{
+        background-color: rgb(15, 0, 71);
+        padding: 10em;
+        z-index: -1;
+        
+    }
+    .h11{
+        color: rgb(255, 181, 245);
+        font-size: 3em;
+        font-family: 'Ubuntu', sans-serif;
+        width: 30%;
+    }
+    
+    .p11{
+        color: #FFFFFF;
+        font-size: large;
+        width: 30%;
+        padding: 1em;
+       
+    }
+
+    .websiteimg11{
+        background-image: url('../public/img/Website1.png');
+        position: absolute;
+        top: 940px;
+        right: -50%;
+        z-index: 0;
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+            }
+
+            @media screen and (max-width: 650px) {
+                .a{
+                    background-color: #e9e9e900;
+                    width: 200px;
+                    padding: 1em;
+                    
+                   }
+                   .h1,.h11{
+                       font-size: 2.5em;
+                       width: 250px;
+                   }
+
+                  .p,.p11{
+                      display: none;
+                  } 
+
+                  .websiteimg , .websiteimg11{
+                    display:none;
+                   
+
+                  }
+
+                  .website{
+
+                    
+                    padding: 0;
+                  }
+
+                  .website2{
+                       background-color: #30001c;
+                      
+                       padding: 0;
+                  }
+
+            }
