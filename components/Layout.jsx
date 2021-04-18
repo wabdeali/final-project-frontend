@@ -12,22 +12,22 @@ function Layout({ children }) {
                 </div>
                 <div className={styles.layoutSidebar}>
                     <div className={styles.sidebarLinks}>
-                        <p>Select type of Attack:</p>
-                        <ul>
-                            <li>
-                                <Link href="/exercise/xss">XSS Attack</Link>
+                        <p>Select Excercise:</p>
+                        <ul className={styles.sidebarLinkspoints}>
+                            <li className={styles.sidebarLinkspoints}>
+                                <Link  href="/exercise/xss">XSS Attack</Link>
                             </li>
-                            <li>
-                                <Link href="/exercise/htmlinsertion">HTML Insertion Attack</Link>
-                            </li>
-                            <li>
+                            <li className={styles.sidebarLinkspoints}>
+                                <Link href="/exercise/htmlinsertion">HTML Insertion </Link>
+                            </li >
+                            <li className={styles.sidebarLinkspoints}>
                                 <Link href="/exercise/csrf">CSRF Attack</Link>
                             </li>
-                            <li>
-                                <Link href="/exercise/bruteforce">Brute Force Attack</Link>
+                            <li className={styles.sidebarLinkspoints}>
+                                <Link href="/exercise/bruteforce">Brute Force </Link>
                             </li>
-                            <li>
-                                <Link href="/exercise/sqlinjection">SQL Injection Attack</Link>
+                            <li className={styles.sidebarLinkspoints}>
+                                <Link href="/exercise/sqlinjection">SQL Injection </Link>
                             </li>
                         </ul>
                     </div>

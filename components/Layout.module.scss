@@ -10,8 +10,11 @@
 }
 
 .layoutSidebar {
-  background: rgb(209, 209, 209);
-  color: rgb(20, 20, 20);
+  background-image: url('../public/img/6f081c95e1d4bfea095132e71d68940c.gif');
+  background-repeat: no-repeat;
+  background-color: #25252c;
+  background-position: -1em 25em  ;
+  color: rgb(255, 220, 155);
   padding: 20px;
   height: 100vh;
 
@@ -19,3 +22,22 @@
     list-style-type: none;
   }
 }
+
+.sidebarLinks{
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2em;
+  padding: 1em;
+}
+
+.sidebarLinkspoints{
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: .7em;
+  padding-top: .9em;
+}
+
+.sidebarLinkspoints a:hover{
+  color: rgb(0, 163, 122);
+}
+

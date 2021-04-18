@@ -4,6 +4,7 @@ import Layout from "../../../components/Layout"
 import TextInput from "../../../components/TextInput"
 import BruteforceInstructions from "./BruteforceInstructions"
 
+
 function index() {
     const [username, setUsername] = useState("")
     const [password, setPassword] = useState("")
@@ -32,9 +33,11 @@ function index() {
             });
     }
 
+
+
     return (
         <Layout>
-            <div>
+            <div >
                 <h1>Brute Force Attack</h1>
                 <form onSubmit={handleSubmit}>
                     <TextInput onChange={e => setUsername(e.target.value)} value={username} placeholder="Username" name="username" />
@@ -50,5 +53,6 @@ function index() {
         </Layout>
     )
 }
+
 
 export default index
