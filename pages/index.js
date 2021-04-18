@@ -30,13 +30,13 @@ export default function Home() {
                 <p>ISO files ,PDF and many other goodies. </p>
               </a>
 
-              <a href="/learn" className={styles.card}>
+              <a href="/exercise" className={styles.card}>
                 <h3>Start Learning &rarr;</h3>
                 <p>Lets Begin the Hunger Games.</p>
               </a>
 
               <a
-                href="https://linuxonline.netlify.app/"
+                href="/linux"
                 className={styles.card}
               >
                 <h3>Linux Online &rarr;</h3>

@@ -1,6 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WAP Project 2021 	:books::computer::laughing::satisfied:
+
+Hi, Web-application for pen-testing  is a Learning application and CyberSecurity Awareness Project that serves the purpose to educate people and provide access to tools, materials, and even an online Operating system :wink: 
+
+We, the creators of this project, hope for everyone to gain knowledge and experience to take a step forward in the field of computer science  
 
 ## Getting Started
+
+nice
 
 First, run the development server:
 
@@ -9,6 +15,15 @@ npm run dev
 # or
 yarn dev
 ```
+
+if you recive any error then you have to install node modules:
+
+```bash
+npm install
+
+```
+for more detail check out this [https://stackoverflow.com/questions/65446047/error-module-not-found-whenever-i-try-to-run-npm-run-dev-using-next-js](StackOver npm Error Solution)
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -27,8 +42,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

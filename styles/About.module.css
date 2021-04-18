@@ -8,6 +8,8 @@
       rgb(255, 194, 232),
       rgb(185, 225, 255) 50px
     );
+
+    
 }
 .aboutus h1{
     font-size: 500%;
@@ -53,6 +55,7 @@ text-align: center;  }
       
       width: 100%;
       height: 200px;
+      object-fit: cover;
       background-size: cover;
 
   }
@@ -60,7 +63,7 @@ text-align: center;  }
 .para{
     display: block;
     padding-top: 12em;
-    height: 80px;
+    height: 100vh;
     background-image: linear-gradient(to right, rgb(0, 17, 53) , rgb(0, 50, 158));
 }
 
