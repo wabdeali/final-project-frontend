@@ -18,7 +18,7 @@ function about() {
                         </div>
                         <div className={styles.container}>
                             <h2>Isaac John</h2>
-                            <p>"Ni naman"</p>
+                            <p>7 Billion people can figureout how to educate and sutain 7 billion people.</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function about() {
                         </div>
                         <div className={styles.container}>
                             <h2>Abdeali Waseef</h2>
-                            <p>"trumpet nerd"</p>
+                            <p>Education is a god given birth right. fight for it Since no one else will !</p>
                         </div>
                     </div>
                 </div>
@@ -41,14 +41,14 @@ function about() {
                     <div className={styles.card}>
                         <div className={styles.img}>
                             <img
-                                src="./img/12.jpg"
+                                src="./img/farooq.jpeg"
                                 alt="farooq"
                                 className={styles.img}
                             />
                         </div>
                         <div className={styles.container}>
                             <h2>Raina Farooq</h2>
-                            <p>"Suta gang!!"</p>
+                            <p>The Rich knowledge of humanity dosen't discriminate, we discriminate knowledge. </p>
                         </div>
                     </div>
                 </div>
