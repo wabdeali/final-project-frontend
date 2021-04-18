@@ -22,13 +22,13 @@ function index() {
                 <p>VM Files and documents </p>
               </a>
 
-              <a href="https://github.com/wabdeali/final-project-frontend" className={styles.card}>
+              <a href="https://github.com/wabdeali/final-project-frontend" target="_blank" className={styles.card}>
                 <h3>Github frontend &rarr;</h3>
                 <p>final-project-frontend</p>
               </a>
 
               <a
-                href="https://github.com/wabdeali/final-project-backend"
+                href="https://github.com/wabdeali/final-project-backend" target="_blank"
                 className={styles.card}
               >
                 <h3>Github Backend &rarr;</h3>
@@ -36,7 +36,7 @@ function index() {
               </a>
 
               <a
-                href="/pdf/setup"
+                href="/pdf/setup" target="_blank"
                 className={styles.card}
               >
                 <h3> Setup Manual &rarr;</h3>
