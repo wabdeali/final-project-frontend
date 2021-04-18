@@ -2,6 +2,7 @@ import { useState } from "react"
 import Button from "../../../components/Button"
 import Layout from "../../../components/Layout"
 import TextInput from "../../../components/TextInput"
+import BruteforceInstructions from "./BruteforceInstructions"
 
 function index() {
     const [username, setUsername] = useState("")
@@ -23,7 +24,7 @@ function index() {
         fetch('http://localhost:3001/login', requestOptions)
             .then(response => response.json())
             .then(data => {
-                if(data.message === "success") {
+                if (data.message === "success") {
                     setSuccess('Login was successfull')
                 } else {
                     setSuccess('Login failed')
@@ -36,13 +37,16 @@ function index() {
             <div>
                 <h1>Brute Force Attack</h1>
                 <form onSubmit={handleSubmit}>
-                    <TextInput onChange={e => setUsername(e.target.value)} value={username} placeholder="Username" name="username"/>
-                    <TextInput type="password" onChange={e => setPassword(e.target.value)} value={password} placeholder="Password" name="password"/>
+                    <TextInput onChange={e => setUsername(e.target.value)} value={username} placeholder="Username" name="username" />
+                    <TextInput type="password" onChange={e => setPassword(e.target.value)} value={password} placeholder="Password" name="password" />
                     <Button type="submit">Login</Button>
                 </form>
                 <br />
                 {success && <p>{success}</p>}
             </div>
+
+            <BruteforceInstructions />
+
         </Layout>
     )
 }

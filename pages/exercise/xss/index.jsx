@@ -24,10 +24,11 @@ function index() {
                         onChange={(e) => setInputValue(e.target.value)}
                     />
                     <Button onClick={handleOnClick}>Enter</Button>
-
-                    <XssInstructions />
                 </div>
             </div>
+
+            <XssInstructions />
+
         </Layout>
     );
 }

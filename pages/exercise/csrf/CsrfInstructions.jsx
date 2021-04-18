@@ -29,6 +29,25 @@ function CsrfInstructions() {
             <img src="/img/instructions/csrf2.png" />
 
             <p className="code">http://localhost:3001/passwordreset/?username=admin&newPassword=admin</p>
+
+            <p>You can see in the above URL that there exists two URL query parameters, username and admin.</p>
+
+            <p>
+                This can mean that you can target this URL from your own created website and effectively
+                change the password of a user without them even knowing. The user only has to load your website
+                and you can perform this attack without them even submitting any forms.
+                This is possible because of the lack of a csrf token in the vulnerable website.
+            </p>
+
+            <p>To learn how to perform this attack yourself, refer to this video:</p>
+
+            <iframe width="700vw" height="400vh" src="https://www.youtube.com/embed/hW2ONyxAySY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Further Reading:</h2>
+
+            <a href="https://owasp.org/www-community/attacks/csrf"><p>OWASP Cross Site Request Forgery</p></a>
+            <a href="https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/06-Session_Management_Testing/05-Testing_for_Cross_Site_Request_Forgery"><p>Cross Site Request Forgery Testing</p></a>
+            <a href="https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"><p>Cross Site Request Forgery Prevention</p></a>
+
         </Instructions>
     )
 }

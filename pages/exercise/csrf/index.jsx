@@ -40,10 +40,10 @@ function index() {
                 {success && <p>{success}</p>}
                 <br />
                 <Button onClick={handleClick}>Reset</Button>
-
-                <CsrfInstructions />
-
             </div>
+
+            <CsrfInstructions />
+
         </Layout>
     )
 }
