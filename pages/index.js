@@ -16,7 +16,7 @@ export default function Home() {
           <main className={styles.main}>
 
             <h1 className={styles.title}>
-              Welcome to <a href="/">WAP!</a>
+              Welcome to <a href="https://wapenetrationtesting.netlify.app/">WAP!</a>
             </h1>
 
             <p className={styles.description}>
@@ -28,6 +28,11 @@ export default function Home() {
               <a href="/downloads" className={styles.card}>
                 <h3>Downloads &rarr;</h3>
                 <p>ISO files ,PDF and many other goodies. </p>
+              </a>
+
+              <a href="/exercise" className={styles.card}>
+                <h3>Start Learning &rarr;</h3>
+                <p>Lets Begin the Hunger Games.</p>
               </a>
 
               <a

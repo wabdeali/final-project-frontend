@@ -17,7 +17,7 @@ function Navbar() {
   return (
 
     <div className={styles.Nav}>
-      <h1><a href="/">WAP</a></h1>
+      <h1><a href="https://wapenetrationtesting.netlify.app/">WAP</a></h1>
       <button className={styles.menu} onClick={openNav}>=</button>
       <div id="mySidenav" className={styles.sidenav} style={{ width: width }}>
         <button className={styles.closebtn} onClick={closeNav} >
