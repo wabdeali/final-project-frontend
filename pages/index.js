@@ -36,7 +36,7 @@ export default function Home() {
               </a>
 
               <a
-                href="https://linuxonline.netlify.app/"
+                href="/linux"
                 className={styles.card}
               >
                 <h3>Linux Online &rarr;</h3>

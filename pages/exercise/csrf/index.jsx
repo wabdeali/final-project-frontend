@@ -3,6 +3,7 @@ import Button from "../../../components/Button";
 import Layout from "../../../components/Layout";
 import TextInput from "../../../components/TextInput";
 import CsrfInstructions from "./CsrfInstructions";
+import styles from '../../../styles/hero.module.css'
 
 function index() {
 
@@ -30,8 +31,11 @@ function index() {
 
     return (
         <Layout>
-            <div>
-                <h1>CSRF Attack</h1>
+             <div className={styles.hero}>
+            <div className={styles.h1}>
+                <h1>CSRF</h1>
+                </div>
+           
                 <form>
                     <TextInput onChange={e => setUsername(e.target.value)} value={username} placeholder="Username" />
                     <TextInput type="password" onChange={e => setNewPassword(e.target.value)} value={newPassword} placeholder="Enter new password" />

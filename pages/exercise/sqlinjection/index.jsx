@@ -2,7 +2,11 @@ import { useState } from "react";
 import Button from "../../../components/Button";
 import Layout from "../../../components/Layout";
 import TextInput from "../../../components/TextInput";
+<<<<<<< HEAD
 import SqlinjectionInstructions from './SqlinjectionInstructions'
+=======
+import styles from '../../../styles/hero.module.css'
+>>>>>>> 936d8040806ae639c9b8dc7ef9ef313700953765
 
 function index() {
     const [inputValue, setInputValue] = useState("")
@@ -21,8 +25,11 @@ function index() {
 
     return (
         <Layout>
-            <div>
-                <h1>SQL Injection Attack</h1>
+            <div className={styles.hero}>
+                <div className={styles.h1}>
+                    <h1>SQL Injection</h1>
+                </div>
+
                 <div className="inputContainer">
                     <form onSubmit={handleOnSubmit}>
                         <TextInput

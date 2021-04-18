@@ -15,8 +15,9 @@ function Navbar() {
   };
 
   return (
+   
     <div className={styles.Nav}>
-      <h1>WAP</h1>
+      <h1><a href="/">WAP</a></h1>
       <button className={styles.menu} onClick={openNav}>=</button>
       <div id="mySidenav" className={styles.sidenav} style={{ width: width }}>
         <button className={styles.closebtn} onClick={closeNav} >
@@ -24,9 +25,10 @@ function Navbar() {
         </button>
         <Link href="/">Home</Link>
         <Link href="/exercise">Exercises</Link>
-        <Link href="/">LinuxOnline</Link>
+        <Link href="/linux">LinuxOnline</Link>
         <Link href="/about">About us</Link>
-      </div>
+        <Link href="/downloads">Downloads</Link>
+    </div>
     </div>
   )
 }
