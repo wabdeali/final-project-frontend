@@ -3,6 +3,7 @@ import Layout from "../../../components/Layout";
 import TextInput from "../../../components/TextInput";
 import Button from "../../../components/Button";
 import XssInstructions from "./XssInstructions";
+import styles from '../../../styles/hero.module.css'
 
 function index() {
     const [inputValue, setInputValue] = useState("");
@@ -15,8 +16,10 @@ function index() {
 
     return (
         <Layout>
-            <div>
+            <div className={styles.hero}>
+            <div className={styles.h1}>
                 <h1>XSS Attack</h1>
+                </div>
                 <div className="inputContainer">
                     <TextInput
                         type="text"
@@ -26,6 +29,7 @@ function index() {
                     <Button onClick={handleOnClick}>Enter</Button>
                 </div>
             </div>
+            
 
             <XssInstructions />
 

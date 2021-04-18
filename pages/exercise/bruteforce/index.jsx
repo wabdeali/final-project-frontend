@@ -3,6 +3,7 @@ import Button from "../../../components/Button"
 import Layout from "../../../components/Layout"
 import TextInput from "../../../components/TextInput"
 import BruteforceInstructions from "./BruteforceInstructions"
+import styles from '../../../styles/hero.module.css'
 
 
 function index() {
@@ -37,8 +38,11 @@ function index() {
 
     return (
         <Layout>
-            <div >
-                <h1>Brute Force Attack</h1>
+           <div className={styles.hero}>
+            <div className={styles.h1}>
+                <h1>BRUTE FORCE</h1>
+                </div>
+           
                 <form onSubmit={handleSubmit}>
                     <TextInput onChange={e => setUsername(e.target.value)} value={username} placeholder="Username" name="username" />
                     <TextInput type="password" onChange={e => setPassword(e.target.value)} value={password} placeholder="Password" name="password" />

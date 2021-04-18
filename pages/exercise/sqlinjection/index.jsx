@@ -2,6 +2,7 @@ import { useState } from "react";
 import Button from "../../../components/Button";
 import Layout from "../../../components/Layout";
 import TextInput from "../../../components/TextInput";
+import styles from '../../../styles/hero.module.css'
 
 function index() {
     const [inputValue, setInputValue] = useState("")
@@ -20,8 +21,11 @@ function index() {
 
     return (
         <Layout>
-        <div>
-            <h1>SQL Injection Attack</h1>
+        <div className={styles.hero}>
+            <div className={styles.h1}>
+                <h1>SQL Injection</h1>
+                </div>
+            
             <div className="inputContainer">
                 <form onSubmit={handleOnSubmit}>
                 <TextInput 

@@ -3,7 +3,7 @@ import styles from "../styles/About.module.css";
 
 function about() {
     return (
-        <>
+        <div >
             <Navbar />
             <div className={styles.aboutus}>
                 .<h1>Meet The Team!</h1>
@@ -26,7 +26,7 @@ function about() {
                     <div className={styles.card}>
                         <div className={styles.img}>
                             <img
-                                src="./img/12.jpg"
+                                src="./img/ali.jpeg"
                                 alt="ali bhai"
                                 className={styles.img}
                             />
@@ -54,7 +54,7 @@ function about() {
                 </div>
             </div>
             <div className={styles.para}>.</div>
-        </>
+        </div>
     );
 }
 
