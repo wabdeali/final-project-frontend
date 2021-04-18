@@ -19,12 +19,12 @@ function index() {
             <div className={styles.grid}>
               <a href="/exercise/xss" className={styles.card}>
                 <h3>XSS Attack &rarr;</h3>
-                <p>ISO files ,PDF and many other goodies. </p>
+                <p>JavaScript Attacks are actually easy </p>
               </a>
 
               <a href="/exercise/htmlinsertion" className={styles.card}>
                 <h3>HTML Insertion &rarr;</h3>
-                <p>Lets Begin the Hunger Games.</p>
+                <p>Man CSS is fun with hacking</p>
               </a>
 
               <a
@@ -32,7 +32,7 @@ function index() {
                 className={styles.card}
               >
                 <h3>CSRF Attack &rarr;</h3>
-                <p>Getting on with the basics.</p>
+                <p>Never going to Let you go</p>
               </a>
 
               <a
@@ -41,7 +41,7 @@ function index() {
               >
                 <h3> PassWORD Attacks &rarr;</h3>
                 <p>
-                  Wanna Know more about us, click here!!
+                  Leave no Password Unturn (BruteForce)
           </p>
               </a>
               <a
@@ -50,7 +50,7 @@ function index() {
               >
                 <h3> SQL Injection &rarr;</h3>
                 <p>
-                  Wanna Know more about us, click here!!
+                  Finally that SQL Claas comes in handy 
           </p>
               </a>
             </div>
