@@ -36,7 +36,7 @@ function index() {
               </a>
 
               <a
-                href="/exercise/bruteforce"
+                href="/pdf/setup"
                 className={styles.card}
               >
                 <h3> Setup Manual &rarr;</h3>
