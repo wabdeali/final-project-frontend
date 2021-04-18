@@ -87,6 +87,13 @@
     margin-left: 100px;
     background-repeat: no-repeat;
   }
+  .websiteimg11111 {
+    background-image: url("../public/img/unnamed.png");
+    height: 500px;
+    width: 60%;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+  }
 .website3 {
     display: flex;
     background-color: rgb(43, 0, 83);
@@ -95,6 +102,11 @@
   .website4 {
     display: flex;
     background-color: rgb(15, 0, 71);
+    padding: 10em;
+  }
+  .website5 {
+    display: flex;
+    background-color: rgb(0, 86, 88);
     padding: 10em;
   }
 
@@ -125,7 +137,7 @@
     position: fixed;
   }
 
-  .websiteimg11,.websiteimg111,.websiteimg1111{
+  .websiteimg11,.websiteimg111,.websiteimg1111,.websiteimg11111{
       display: none;
   }
 
@@ -139,10 +151,15 @@
     padding: 0;
   }
   .website3 {
-    
+    background-color: #1f0012;
     padding: 0em;
   }
   .website4 {
+    
+    background-color: #000000;
+    padding: 0em;
+  }
+  .website5 {
     
 
     padding: 0em;
